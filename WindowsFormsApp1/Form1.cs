@@ -16,5 +16,32 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int year = Convert.ToInt32(this.textBox1.Text);
+            if(year % 100 == 0)
+            {
+                if(year % 400 == 0)
+                {
+                    MessageBox.Show(this.textBox1.Text + " is a leap year");
+                }
+                else if(year % 400 != 0)
+                {
+                    MessageBox.Show(this.textBox1.Text + " is not aleap year");
+                }
+            }
+            else if(year % 100 != 0)
+            {
+                if(year % 4 == 0)
+                {
+                    MessageBox.Show(this.textBox1.Text + " is a leap year");
+                }
+                else if(year % 4 != 0)
+                {
+                    MessageBox.Show(this.textBox1.Text + " is not aleap year");
+                }
+            }
+        }
     }
 }
