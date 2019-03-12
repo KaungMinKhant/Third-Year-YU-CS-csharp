@@ -50,5 +50,12 @@ namespace WindowsFormsApp1
             NumberOfLeapYear nolp = new NumberOfLeapYear();
             nolp.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LeapYearTestercs lyt = new LeapYearTestercs();
+            lyt.ShowDialog();
+        }
     }
 }

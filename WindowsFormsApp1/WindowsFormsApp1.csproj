@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LeapYearTestercs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeapYearTestercs.Designer.cs">
+      <DependentUpon>LeapYearTestercs.cs</DependentUpon>
+    </Compile>
     <Compile Include="NumberOfLeapYear.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeapYearTestercs.resx">
+      <DependentUpon>LeapYearTestercs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NumberOfLeapYear.resx">
       <DependentUpon>NumberOfLeapYear.cs</DependentUpon>
